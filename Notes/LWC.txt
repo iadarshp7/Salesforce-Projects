@@ -1,0 +1,15 @@
+::::::::::::::::::::::Lifecycle Hooks:::::::::::::::::::::::::::::
+@api
+@track
+@wire
+::::::::::::::::::::::Components Communication:::::::::::::::::::::
+1) Parent to child communication
+   1.1) Primitive data type
+   1.2) Non-Primitive data type
+   1.3) on action at parent component
+   1.4) Calling child method from parent
+2) Child to parent Communication
+   2.1) calling parent using simple event
+   2.2) calling parent using event with data
+   2.3) event bubbling
+3)
