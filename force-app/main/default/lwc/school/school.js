@@ -2,6 +2,13 @@ import { LightningElement } from 'lwc';
 
 export default class School extends LightningElement {
     progress = 0;
+    showModal = false;
+    handleModal() {
+        this.showModal = true;
+    }
+    modalHandle() {
+        this.showModal = false;
+    }
     progressBarHandler(event) {
         this.progress = event.target.value;
     }
