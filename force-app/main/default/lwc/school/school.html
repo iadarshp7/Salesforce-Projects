@@ -5,4 +5,8 @@
     </lightning-card>
     <lightning-input type="number" label="Enter Number" onchange={progressBarHandler}></lightning-input>
     <lightning-button label="Reset Progress Bar" onclick={resetProgressBar}></lightning-button>
+    <lightning-button label="Show" onclick={handleModal}></lightning-button>
+    <template if:true={showModal}>
+        <c-success-modal onclose={modalHandle}></c-success-modal>
+    </template>
 </template>
