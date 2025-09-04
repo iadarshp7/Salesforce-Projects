@@ -1,6 +1,13 @@
 import { LightningElement } from 'lwc';
 
 export default class School extends LightningElement {
+    progress = 0;
+    progressBarHandler(event) {
+        this.progress = event.target.value;
+    }
+    resetProgressBar() {
+        this.template.querySelector('c-student').resetBar();
+    }
     carousedDetails = [
         {
             src: "https://v1.lightningdesignsystem.com/assets/images/carousel/carousel-01.jpg",

@@ -1,6 +1,8 @@
 <template>
     <lightning-card>
         <div>Parent Header</div>
-        <c-student name="Adarsh Pal" carousel-data={carousedDetails}></c-student>
+        <c-student name="Adarsh Pal" carousel-data={carousedDetails} progress-bar={progress}></c-student>
     </lightning-card>
+    <lightning-input type="number" label="Enter Number" onchange={progressBarHandler}></lightning-input>
+    <lightning-button label="Reset Progress Bar" onclick={resetProgressBar}></lightning-button>
 </template>
