@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-        <members>school</members>
-        <members>successModal</members>
+		<members>componentA</members>
+		<members>componentB</members>
 		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>LwcToLwc</members>
+		<name>LightningMessageChannel</name>
 	</types>
 	<version>64.0</version>
 </Package>
