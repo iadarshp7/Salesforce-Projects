@@ -12,4 +12,9 @@
    2.1) calling parent using simple event
    2.2) calling parent using event with data
    2.3) event bubbling
-3)
+3) Aura and LWC
+   <c:lwcName></c:lwcName>
+4) Message Channels
+   4.1) create a folder "Message Channels"
+   4.2) create a meta.xml file "messageChannelName.messageChannel-meta.xml"
+   
